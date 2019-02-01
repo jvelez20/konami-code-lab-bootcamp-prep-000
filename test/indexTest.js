@@ -35,7 +35,7 @@ describe("index.js", () => {
       expect(spy.callCount).to.equal(1)
     });
 
-    it("does not trigger an alert if the wrong code is entered", () => {
+    console.log("does not trigger an alert if the wrong code is entered", () => {
       spy.reset()
 
       for (let i = 0; i < codes.length - 1; i++) {
